@@ -1,7 +1,7 @@
 ##########
 # collectionbuilder-gh
 # Jekyll Digital Collection Generator, designed for GitHub Pages
-# https://github.com/CollectionBuilder/collectionbuilder-gh
+# https://github.com/galeria-huertas-ud/collectionbuilder-gh
 ##########
 
 ##########
@@ -14,7 +14,7 @@
 # on GitHub Pages it is your github repository's name prefixed with a /
 #baseurl: /collectionbuilder-gh 
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
+source-code: https://github.com/galeria-huertas-ud/collectionbuilder-gh
 
 ##########
 # SITE SETTINGS
