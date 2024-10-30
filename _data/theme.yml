@@ -13,8 +13,7 @@ featured-image: objects/bannerhuerta.jpg
 home-title-y-padding: 10em # Default is 8em
 # optional: change position of background image, center, top, bottom
 home-banner-image-position: # Default is center
-title-background: background-color: #408026;
-
+title-background: title-custom
 ##########
 # ITEM PAGE
 #
