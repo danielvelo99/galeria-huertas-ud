@@ -11,6 +11,8 @@ $base-font-size: {{ site.data.theme.base-font-size | default: '""' }};
 $text-color: {{ site.data.theme.text-color | default: '""' }};
 $link-color: {{ site.data.theme.link-color | default: '""' }};
 
+
+
 /* theme colors pulled from config-theme-colors */
 {% assign btns = site.data.config-theme-colors | where_exp: "item","item.color != nil" %}
 {% if btns != empty %}
@@ -35,3 +37,14 @@ $theme-colors: map-merge(
     background-color: #784212;  
 }
 
+.title-background {
+    background-color: #408026;  /* Reemplaza con el color hexadecimal deseado */
+    color: #FFFFFF;             /* Ajusta el color del texto si es necesario */
+    padding: 10px;              /* Ajusta el espaciado alrededor del título */
+}
+
+.tagline-background {
+    background-color: #3a7520;  /* Reemplaza con otro color hexadecimal si deseas */
+    color: #FFFFFF;
+    padding: 5px;
+}
