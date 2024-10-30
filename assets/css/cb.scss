@@ -31,3 +31,7 @@ $theme-colors: map-merge(
 {% endif %}
 
 @import "base", "pages", "custom";
+.navbar-custom {
+    background-color: #FFC300;  
+}
+
