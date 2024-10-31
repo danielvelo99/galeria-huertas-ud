@@ -36,6 +36,7 @@ $theme-colors: map-merge(
 .navbar-custom {
     background-color: #784212;  
 }
-.home-title {
-    background-color: #784212; 
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #784212;
 }
